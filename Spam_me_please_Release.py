@@ -69,9 +69,9 @@ if spam_type == '1':
         time.sleep(0.5)
 
 driver.find_element_by_xpath('//div[@class = "im_editable im-chat-input--text _im_text"]').click()
-driver.find_element_by_xpath('//div[@class = "im_editable im-chat-input--text _im_text"]').send_keys('Тебя упомянул Molozey <3'+Keys.ENTER)
+driver.find_element_by_xpath('//div[@class = "im_editable im-chat-input--text _im_text"]').send_keys('Простите <3'+Keys.ENTER)
 driver.find_element_by_xpath('//div[@class = "im_editable im-chat-input--text _im_text"]').click()
-driver.find_element_by_xpath('//div[@class = "im_editable im-chat-input--text _im_text"]').send_keys('Хочешь делать так же - https://drive.google.com/drive/folders/1VEe-lp4KeYYFjEHpbIkkB2T7iXgBP-YU?usp=sharing'+Keys.ENTER)
+driver.find_element_by_xpath('//div[@class = "im_editable im-chat-input--text _im_text"]').send_keys('https://github.com/Molozey'+Keys.ENTER)
 
 
 key = input('CLOSE Y/N')
